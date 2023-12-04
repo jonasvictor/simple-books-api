@@ -1,0 +1,24 @@
+{
+  "name": "simple-books-api",
+  "version": "1.0.0",
+  "description": "Criação de testes de API utilizando Cypress.",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonasvictor/simple-books-api.git"
+  },
+  "keywords": [
+    "Simple Books API"
+  ],
+  "author": "Jonas Victor <jonas.victor@dcx.ufpb.br>",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.1"
+  }
+}
