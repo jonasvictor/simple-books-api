@@ -73,3 +73,11 @@ Cypress.Commands.add("api_deleteOrder", (orderId) => {
     },
   });
 });
+
+Cypress.Commands.add("api_authentication", (clientData) => {
+  return cy.request({
+    method: "POST",
+    url: "/api-clients/",
+    body: clientData,
+  });
+});
