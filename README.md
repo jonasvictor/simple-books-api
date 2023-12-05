@@ -56,7 +56,7 @@ Certifique-se de configurar as variáveis de ambiente necessárias no arquivo `c
 
 ## Comandos Úteis
 
-- **`npm test:`** Executa todos os testes.
+- **`npm test`** Executa todos os testes.
 - **`npx cypress open`** Abre a interface do Cypress para executar testes interativamente.
 
 ## Referência da API
